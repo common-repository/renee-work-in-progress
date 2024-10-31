@@ -1,0 +1,229 @@
+.renee_wip_donate_container{
+	text-align: center;
+}
+
+.renee_wip_settings_container{
+	position:relative;
+	padding:20px 20px 20px 0;
+}
+
+.renee_wip_settings_container .renee_wip_settings_form > input{
+	display:none;
+}
+
+
+
+.renee_wip_settings_container div.renee_progress_container{
+	position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 50px;
+}
+
+.renee_progress_container input.renee_wip_gotomodel{
+	display:inline;
+	padding:10px 0;
+	width:98%;
+	margin:1%;
+	z-index:300;
+	cursor:pointer;
+}
+
+.renee_wip_settings_container .renee_wip_settings_form > label{
+	display:inline-block;
+	position:relative;
+	height:20px;
+	padding:10px 20px;
+	background-color:#ccc;
+	color:#999;
+}
+
+.renee_wip_settings_container .renee_wip_settings_form > input:checked + label{
+	background-color: #fff;
+	border-right:1px solid #333;
+	border-left:1px solid #333;
+	border-top:1px solid #333;
+	color:#333;
+	z-index:10;
+}
+
+.renee_wip_settings_container .content{
+	display:none;
+	position:absolute;
+	width:calc(100% - 60px);
+	top:60px;
+	padding:20px;
+	border:1px solid #333;
+	background-color: #fff;
+}
+
+.renee_wip_settings_container .renee_wip_settings_form > input:checked + label + .content{
+	display: block;
+	z-index:9;
+}
+
+.renee_wip_settings_container .content_styles{
+	font-size: 0;
+}
+
+.gauges_tab_list{
+	display:inline-block;
+	position:relative;
+	width:280px;
+	vertical-align: top;
+	font-size: 14px;
+	text-align: right;
+}
+
+.gauges_tab_list .default{
+	font-size: 14px;
+}
+
+.renee_wip_settings_container .gauges_tab_list .default_gauge{
+	margin:0;
+	padding:0;
+}
+
+.renee_wip_settings_container .gauges_tab_list > input.tab{
+	display:none;
+}
+
+.renee_wip_settings_container .gauges_tab_list > label{
+	display:inline-block;
+	position:relative;
+	height:20px;
+	width:141px;
+	padding:10px 20px;
+	border-bottom:1px solid #fff;
+	background-color:#ccc;
+	color:#999;
+	font-size: 14px;
+	text-align: center;
+
+}
+
+.renee_wip_settings_container .gauges_tab_list > input.tab:checked + label{
+	background-color: #fff;
+	border-left:1px solid #333;
+	border-bottom:1px solid #333;
+	border-top:1px solid #333;
+	color:#333;
+	z-index:10;
+	box-shadow:-5px 0 10px -5px #000;
+}
+
+.renee_wip_settings_container .gauges_tab_list > #tab_circle:checked + label + .circle_styles{
+	display:block;
+}
+
+.gauges_view{
+	display:inline-block;
+	position:relative;
+	width:calc(100% - 285px);
+	font-size: auto;
+	left:-1px;
+	vertical-align: top;
+	z-index: 9;
+}
+
+.renee_wip_settings_container .gauges_view .gauge_styles{
+	display:none;
+	position:relative;
+	width:calc(100% - 40px);
+	padding:20px;
+	border:1px solid #333;
+	background-color: #fff;
+	box-shadow:0 0 10px -5px #000;
+}
+
+.renee_wip_settings_container .gauge_styles_inputs,
+.renee_wip_settings_container .renee_progress_container{
+	display:inline-block;
+	position:relative;
+	width:50%;
+	vertical-align: top;
+	font-size:14px;
+}
+
+.renee_wip_settings_container .gauge_styles_inputs input[type="number"],
+.renee_wip_settings_container .gauge_styles_inputs input[type="color"],
+.renee_wip_settings_container .gauge_styles_inputs input[type="text"] {
+   width:80px;
+	 height:30px;
+	 vertical-align: top;
+}
+
+.renee_wip_settings_container .gauge_styles_inputs table{
+	border-collapse: collapse;
+	border:none;
+}
+
+.renee_wip_settings_container .gauge_styles_inputs table tr{
+	border-bottom:1px solid #ccc;
+}
+
+.renee_wip_settings_container .gauge_styles_inputs table tr:last-child{
+	border-bottom:none;
+}
+
+.renee_wip_settings_container .gauge_styles_inputs table tr td{
+	padding:10px 0;
+	vertical-align: middle;
+}
+
+.renee_wip_settings_container .gauge_styles_inputs table tr td:first-child{
+	width:40%;
+}
+
+.renee_wip_settings_container .gauge_styles_inputs table tr table tr{
+	border:none;
+}
+
+.renee_wip_settings_container .gauge_styles_inputs table tr table tr td{
+	padding:10px;
+}
+
+.renee_wip_settings_container .renee_progress_icon .renee_progress_text{
+	border:none;
+}
+
+/************************** SAVE SETTINGS ********************************/
+.renee_wip_settings_container .renee_wip_settings_save,
+.renee_wip_settings_container .renee_wip_settings_save2{
+	display:block;
+	position:fixed;
+	right:10px;
+	bottom:10px;
+	padding:10px 15px;
+	border:none;
+	color:#fff;
+	font-size: 16px;
+	border-radius: 20px;
+	background-color: #009900;
+	z-index: 100000;
+	cursor:pointer;
+	box-shadow:0 0 7px 0px #000;
+}
+
+.renee_wip_settings_container .renee_wip_settings_save:hover{
+	background-color: #00bb00;
+}
+
+.renee_wip_settings_save .renee_wip_tick{
+	display:inline-block;
+	width:16px;
+	height:16px;
+}
+
+.renee_wip_settings_save .renee_wip_tick.hidden{
+	display:none;
+}
+
+.renee_wip_settings_save .renee_wip_spinner{
+	display:none;
+	width:16px;
+	height:16px;
+}
+
+.renee_wip_settings_save .renee_wip_spinner.visible{
+	display:inline-block;
+}

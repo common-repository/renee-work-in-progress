@@ -1,0 +1,525 @@
+.renee_progress_container{
+	display:block;
+	position:relative;
+	width:100%;
+}
+
+.renee_progress_spinner{
+	display:none;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(255, 255, 255, 0.8);
+	z-index:100;
+}
+
+.renee_progress_spinner span{
+	display:block;
+	position:absolute;
+	top:50%;
+	margin-top:-15px;
+	left:0;
+	width:100%;
+	text-align:center;
+	font-size:16px;
+	line-height:30px;
+}
+
+.renee_spinner_svg, .renee_spinner_svg2{
+	display:block;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-50px;
+	margin-left:-50px;
+	width:100px;
+	height:100px;
+}
+
+.renee_spinner_svg{
+	z-index:120;
+}
+
+.renee_spinner_svg2{
+	z-index:110;
+}
+
+.renee_spinner_svg circle, .renee_spinner_svg2 circle{
+	-webkit-transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+	transition:all 0.2s;
+	position:absolute;
+	opacity:1;
+	fill:none;
+	fill-opacity:1;
+	fill-rule:nonzero;
+	stroke:#21759b;
+	stroke-width:20;
+	stroke-linecap:flat;
+	stroke-linejoin:flat;
+	stroke-miterlimit:4;
+	stroke-dasharray:0, 282;
+	stroke-dashoffset:70;
+	stroke-opacity:1;
+}
+
+.renee_spinner_svg2 circle{
+	stroke:#ccc;
+	stroke-dasharray:none;
+	stroke-dashoffset:0;
+}
+
+.renee_progress_outer{
+	display:block;
+	width:auto;
+	height:auto;
+	margin:0 auto;
+	vertical-align:middle;
+	text-align:center;
+}
+
+.renee_progress_inner{
+	display:block;
+	position:relative;
+	width:auto;
+	height:auto;
+	vertical-align:middle;
+
+}
+
+.renee_progress_icon{
+	position:relative;
+	top:0;
+	left:10%;
+	width:80%;
+	height:auto;
+	text-align:center;
+}
+
+.renee_progress_icon .renee_progress_text{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	margin:0;
+	padding:0;
+	border:1px solid #ccc;
+	font-size:40px;
+	line-height: 170%;
+	text-shadow:0 0 5px #fff;
+	z-index:3;
+}
+
+.renee_progress_icon .rich-text.renee_progress_text{
+	position:absolute;
+	width:100%;
+	height:80px;
+	left:0;
+	top:calc(50% - 40px);
+	margin:0;
+	padding:0;
+	border:1px solid #ccc;
+	font-size:80px;
+	line-height: 80px;
+	text-shadow:0 0 5px #fff;
+	z-index:3;
+}
+
+.renee_svg_icon, .renee_svg_icon2{
+	position:relative;
+	top:0;
+	left:0;
+	width:98%;
+	height:98%;
+	padding:1%;
+}
+
+.renee_svg_icon{
+	z-index:2;
+}
+
+.renee_svg_icon2{
+	z-index:1;
+}
+
+.renee_svg_icon circle, .renee_svg_icon2 circle{
+	-webkit-transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+	transition:all 0.2s;
+	position:absolute;
+	opacity:1;
+	fill:none;
+	fill-opacity:1;
+	fill-rule:nonzero;
+	stroke:#658ba8;
+	stroke-width:20;
+	stroke-linecap:flat;
+	stroke-linejoin:flat;
+	stroke-miterlimit:4;
+	stroke-dasharray:0, 282;
+	stroke-dashoffset:70;
+	stroke-opacity:1;
+}
+
+.renee_svg_icon .renee_svg_circle2{
+	stroke:#ccc;
+	stroke-dasharray:none;
+	stroke-dashoffset:0;
+}
+
+.renee_svg_battery_icon .renee_svg_battery_rect1{
+	opacity:1;
+	fill:#ffffff;
+	fill-opacity:1;
+	fill-rule:nonzero;
+	stroke:#ccc;
+	stroke-width:2.5173862;
+	stroke-linecap:butt;
+	stroke-linejoin:round;
+	stroke-miterlimit:4;
+	stroke-dasharray:none;
+	stroke-dashoffset:0;
+	stroke-opacity:1;
+}
+
+.renee_svg_battery_icon .renee_svg_battery_rect2{
+	opacity:1;
+	fill:#ccc;
+	fill-opacity:1;
+	fill-rule:nonzero;
+	stroke:#ccc;
+	stroke-width:2.49451399;
+	stroke-linecap:butt;
+	stroke-linejoin:round;
+	stroke-miterlimit:4;
+	stroke-dasharray:none;
+	stroke-dashoffset:0;
+	stroke-opacity:1;
+}
+
+.renee_svg_battery_icon .renee_svg_battery_path{
+	transition:all 0.3s;
+	fill:none;
+	fill-rule:evenodd;
+	stroke:#658ba8;
+	stroke-width:42.33333206;
+	stroke-linecap:butt;
+	stroke-linejoin:miter;
+	stroke-miterlimit:4;
+	stroke-dasharray:0, 108;
+	stroke-dashoffset:0;
+	stroke-opacity:1;
+}
+
+.renee_svg_speedometer_icon .bg_path,
+.renee_svg_speedometer_icon .bar_path{
+	opacity:1;
+	fill:none;
+	fill-opacity:1;
+	fill-rule:nonzero;
+	stroke:#ccc;
+	stroke-width:22.11133194;
+	stroke-linecap:butt;
+	stroke-linejoin:round;
+	stroke-miterlimit:4;
+	stroke-dasharray:none;
+	stroke-dashoffset:0;
+	stroke-opacity:1;
+}
+
+.renee_svg_speedometer_icon .bar_path{
+	stroke-dasharray:1, 170;
+	stroke:#658ba8;
+}
+.renee_svg_speedometer_icon .text1{
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	font-stretch:normal;
+	font-size:14.11111069px;
+	line-height:125%;
+	font-family:'Advent Pro';
+	-inkscape-font-specification:'Advent Pro, Normal';
+	font-variant-ligatures:normal;
+	font-variant-caps:normal;
+	font-variant-numeric:normal;
+	font-feature-settings:normal;
+	text-align:start;
+	letter-spacing:0px;
+	word-spacing:0px;
+	writing-mode:lr-tb;
+	text-anchor:start;
+	fill:#ffffff;
+	fill-opacity:1;
+	stroke:none;
+	stroke-width:0.26458332px;
+	stroke-linecap:butt;
+	stroke-linejoin:miter;
+	stroke-opacity:1;
+}
+
+.renee_svg_speedometer_icon .text1 path{
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	font-stretch:normal;
+	font-size:10.58333302px;
+	font-family:'Advent Pro';
+	-inkscape-font-specification:'Advent Pro, Normal';
+	font-variant-ligatures:normal;
+	font-variant-caps:normal;
+	font-variant-numeric:normal;
+	font-feature-settings:normal;
+	text-align:start;
+	writing-mode:lr-tb;
+	text-anchor:start;
+}
+
+.renee_svg_speedometer_icon .line{
+	opacity:1;
+	fill:none;
+	fill-opacity:1;
+	fill-rule:nonzero;
+	stroke:#ffffff;
+	stroke-width:1.05882347;
+	stroke-linecap:butt;
+	stroke-linejoin:round;
+	stroke-miterlimit:4;
+	stroke-dasharray:none;
+	stroke-dashoffset:0;
+	stroke-opacity:1;
+}
+
+.renee_svg_speedometer_icon .text2{
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	font-stretch:normal;
+	font-size:3.52777767px;
+	line-height:125%;
+	font-family:'Modern Pictograms';
+	-inkscape-font-specification:'Modern Pictograms, Normal';
+	font-variant-ligatures:normal;
+	font-variant-caps:normal;
+	font-variant-numeric:normal;
+	font-feature-settings:normal;
+	text-align:start;
+	letter-spacing:0px;
+	word-spacing:0px;
+	writing-mode:lr-tb;
+	text-anchor:start;
+	fill:#ffffff;
+	fill-opacity:1;
+	stroke:#ffffff;
+	stroke-width:1;
+	stroke-linecap:butt;
+	stroke-linejoin:miter;
+	stroke-miterlimit:4;
+	stroke-dasharray:none;
+	stroke-opacity:1;
+}
+
+.renee_svg_speedometer_icon .text2 path{
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	font-stretch:normal;
+	font-size:3.52777767px;
+	font-family:'Modern Pictograms';
+	font-variant-ligatures:normal;
+	font-variant-caps:normal;
+	font-variant-numeric:normal;
+	font-feature-settings:normal;
+	text-align:start;
+	writing-mode:lr-tb;
+	text-anchor:start;
+	fill:#ffffff;
+	stroke:#ffffff;
+	stroke-width:1;
+	stroke-miterlimit:4;
+	stroke-dasharray:none;
+	stroke-opacity:1;
+}
+
+.renee_svg_speedometer_icon .hand{
+	fill:#333333;
+	fill-rule:evenodd;
+	stroke:none;
+	stroke-width:0.26458332px;
+	stroke-linecap:butt;
+	stroke-linejoin:miter;
+	stroke-opacity:1;
+	transform-origin: 50% 430%;
+	transform: rotate(-89deg);
+}
+
+.renee_svg_speedometer2_icon .grid{
+	color:#000000;
+	opacity:1;
+	fill:#4d4d4d;
+	fill-opacity:1;
+	fill-rule:nonzero;
+	stroke:none;
+	stroke-width:2.6895113;
+	stroke-linecap:butt;
+	stroke-linejoin:round;
+	stroke-miterlimit:4;
+	stroke-dasharray:none;
+	stroke-dashoffset:0;
+	stroke-opacity:1;
+}
+
+.renee_svg_speedometer2_icon .numbers{
+	fill:#4d4d4d;
+	fill-opacity:1;
+	stroke:#4d4d4d;
+	stroke-width:0.75901484;
+	stroke-miterlimit:4;
+	stroke-dasharray:none;
+	stroke-opacity:1;
+}
+
+.renee_svg_speedometer2_icon .hidden_hand{
+	opacity:1;
+	fill:#aa0000;
+	fill-opacity:0;
+	fill-rule:nonzero;
+	stroke:#aa0000;
+	stroke-width:2.64583325;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	stroke-miterlimit:4;
+	stroke-dasharray:none;
+	stroke-dashoffset:0;
+	stroke-opacity:0;
+}
+
+.renee_svg_speedometer2_icon .hand{
+	opacity:1;
+	fill:#aa0000;
+	fill-opacity:1;
+	fill-rule:nonzero;
+	stroke:#aa0000;
+	stroke-width:2.64583325;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	stroke-miterlimit:4;
+	stroke-dasharray:none;
+	stroke-dashoffset:0;
+	stroke-opacity:1;
+}
+
+.renee_svg_rogal_icon .bgpath,
+.renee_svg_rogal_icon .meter{
+	opacity:1;
+	fill:none;
+	fill-opacity:1;
+	fill-rule:nonzero;
+	stroke:#ccc;
+	stroke-width:15.875;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	stroke-miterlimit:4;
+	stroke-dasharray:none;
+	stroke-dashoffset:0;
+	stroke-opacity:1;
+}
+
+.renee_svg_rogal_icon .meter{
+	stroke:#658ba8;
+	stroke-dasharray:0,230;
+}
+
+.renee_wip_form_wrapper{
+	text-align:left;
+	margin-bottom:20px;
+}
+
+.components-form-file-upload, .components-button{
+	display:inline-block;
+	position:relative;
+}
+
+.renee_file_select, .renee_refresh_list, .renee_delete_list{
+	display:inline-block;
+	position:relative;
+}
+.renee_file_select{
+	margin:0 3% 0 0;
+	width:50%;
+}
+
+.renee_refresh_list{
+	margin:0 3% 0 0;
+	width:auto;
+}
+
+.renee_delete_list{
+	width:auto;
+}
+
+.renee_delete_list_wrapper{
+	display:none;
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-color:rgba(255,255,255,0.9);
+	z-index:300;
+}
+
+.renee_delete_list_viewer{
+	position:absolute;
+	width:100%;
+	height:calc(100% - 30px);
+	top:0;
+	left:0;
+	overflow:auto;
+}
+
+.renee_delete_list_viewer table tr{
+	text-align:left;
+}
+
+.renee_delete_list_viewer table tr:nth-child(odd){
+	background-color:rgba(200,200,200,0.8);
+}
+
+.renee_delete_list_viewer table td:first-child,
+.renee_delete_list_viewer table td:first-child + td,
+.renee_delete_list_viewer table th:first-child,
+.renee_delete_list_viewer table th:first-child + th {
+	text-align:center;
+}
+
+.renee_single_delete_button{
+	background-color:transparent;
+	border:none;
+	outline:none;
+}
+
+.renee_single_delete_button i{
+	font-family: 'Font awesome 5 Free';
+	font-weight: 900;
+}
+
+.renee_single_delete_button:hover{
+	color:red;
+}
+
+.renee_delete_list_buttons{
+	position:absolute;
+	width:100%;
+	height:30px;
+	bottom:0;
+	left:0;
+}
+
+.renee_delete_close_button{
+	float:right;
+}
+
+.renee_delete_file_button{
+	float:left;
+}

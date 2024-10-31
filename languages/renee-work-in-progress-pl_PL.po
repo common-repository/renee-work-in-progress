@@ -1,0 +1,438 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: A SolidWorks work in progress plugin\n"
+"POT-Creation-Date: 2020-08-13 10:02+0200\n"
+"PO-Revision-Date: 2020-08-13 10:05+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: renee-work-in-progress.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: assets/renee_wip.js:27
+msgid "Work In Progress"
+msgstr "Praca W Toku"
+
+#: assets/renee_wip.js:343
+msgid "Delete"
+msgstr "Usuń"
+
+#: assets/renee_wip.js:351
+msgid "Select all"
+msgstr "Zaznacz wszystko"
+
+#: assets/renee_wip.js:357
+msgid "File name"
+msgstr "Nazwa pliku"
+
+#: assets/renee_wip.js:550
+msgid "Delete selected"
+msgstr "Usuń zaznaczone"
+
+#: assets/renee_wip.js:560
+msgid "Close"
+msgstr "Zamknij"
+
+#: assets/renee_wip.js:613
+msgid "Select meter type: "
+msgstr "Wybierz typ miernika: "
+
+#: assets/renee_wip.js:616 inc/renee_wip_settings_page.php:76
+msgid "Circle"
+msgstr "Koło"
+
+#: assets/renee_wip.js:616 inc/renee_wip_settings_page.php:80
+msgid "Battery"
+msgstr "Bateria"
+
+#: assets/renee_wip.js:616 inc/renee_wip_settings_page.php:84
+msgid "Speed-o-meter 1"
+msgstr "Licznik prędkości 1"
+
+#: assets/renee_wip.js:616 inc/renee_wip_settings_page.php:88
+msgid "Speed-o-meter 2"
+msgstr "Licznik prędkości 2"
+
+#: assets/renee_wip.js:616 inc/renee_wip_settings_page.php:92
+msgid "Croissant"
+msgstr "Rogal"
+
+#: assets/renee_wip.js:1140
+msgid "Select file(s) to upload: "
+msgstr "Wybierz plik(i) do wysłania: "
+
+#: assets/renee_wip.js:1159
+msgid "Upload"
+msgstr "Wyślij na serwer"
+
+#: assets/renee_wip.js:1181
+msgid "Refresh list"
+msgstr "Odśwież listę"
+
+#: assets/renee_wip.js:1190
+msgid "Delete files"
+msgstr "Usuń pliki"
+
+#: inc/renee_wip_settings_page.php:39
+msgid "Donate if you like this plugin and want me to continue with support. :)"
+msgstr ""
+"Przekaż darowiznę, jeśli podoba Ci się ta wtyczka i chcesz bym kontynuował "
+"wparcie. :)"
+
+#: inc/renee_wip_settings_page.php:52
+msgid "Save "
+msgstr "Zapisz "
+
+#: inc/renee_wip_settings_page.php:57
+msgid "General settings"
+msgstr "Główne ustawienia"
+
+#: inc/renee_wip_settings_page.php:60
+msgid " How many columns should be displayed on desktop screen?"
+msgstr " Ile kolumn ma się wyświetlać na ekranie komputera stacjonarnego?"
+
+#: inc/renee_wip_settings_page.php:62
+msgid " How many columns should be displayed on laptop screen?"
+msgstr " Ile kolumn ma się wyświetlać na ekranie laptopa?"
+
+#: inc/renee_wip_settings_page.php:64
+msgid " How many columns should be displayed on tablet screen?"
+msgstr " Ile kolumn ma się wyświetlać na ekranie tableta?"
+
+#: inc/renee_wip_settings_page.php:66
+msgid " How many columns should be displayed on mobile screen?"
+msgstr " Ile kolumn ma się wyświetlać na ekranie smartfona?"
+
+#: inc/renee_wip_settings_page.php:69
+msgid "Appearance settings"
+msgstr "Ustawienia wyglądu"
+
+#: inc/renee_wip_settings_page.php:73 inc/renee_wip_settings_page.php:77
+#: inc/renee_wip_settings_page.php:81 inc/renee_wip_settings_page.php:85
+#: inc/renee_wip_settings_page.php:89
+msgid "default "
+msgstr "domyślne "
+
+#: inc/renee_wip_settings_page.php:102
+msgid "Animation duration "
+msgstr "Czas animacji "
+
+#: inc/renee_wip_settings_page.php:105 inc/renee_wip_settings_page.php:373
+msgid " seconds"
+msgstr " sekund"
+
+#: inc/renee_wip_settings_page.php:110 inc/renee_wip_settings_page.php:1244
+msgid "Background circle color: "
+msgstr "Kolor okręgu w tle: "
+
+#: inc/renee_wip_settings_page.php:119
+msgid "Meter circle color: "
+msgstr "Kolor okręgu miernika: "
+
+#: inc/renee_wip_settings_page.php:128 inc/renee_wip_settings_page.php:405
+#: inc/renee_wip_settings_page.php:692 inc/renee_wip_settings_page.php:989
+#: inc/renee_wip_settings_page.php:1262
+msgid "Button color: "
+msgstr "Kolor przycisku: "
+
+#: inc/renee_wip_settings_page.php:137 inc/renee_wip_settings_page.php:414
+#: inc/renee_wip_settings_page.php:701 inc/renee_wip_settings_page.php:998
+#: inc/renee_wip_settings_page.php:1271
+msgid "Button border color: "
+msgstr "Kolor obramowania przycisku: "
+
+#: inc/renee_wip_settings_page.php:146 inc/renee_wip_settings_page.php:423
+#: inc/renee_wip_settings_page.php:710 inc/renee_wip_settings_page.php:1007
+#: inc/renee_wip_settings_page.php:1280
+msgid "Button border width: "
+msgstr "Szerokość obramowania przycisku: "
+
+#: inc/renee_wip_settings_page.php:154 inc/renee_wip_settings_page.php:431
+#: inc/renee_wip_settings_page.php:718 inc/renee_wip_settings_page.php:1015
+#: inc/renee_wip_settings_page.php:1288
+msgid "Button border style: "
+msgstr "Styl obramowania przycisku: "
+
+#: inc/renee_wip_settings_page.php:158 inc/renee_wip_settings_page.php:435
+#: inc/renee_wip_settings_page.php:722 inc/renee_wip_settings_page.php:1019
+#: inc/renee_wip_settings_page.php:1292
+msgid "Dotted"
+msgstr "Kropkowane"
+
+#: inc/renee_wip_settings_page.php:159 inc/renee_wip_settings_page.php:436
+#: inc/renee_wip_settings_page.php:723 inc/renee_wip_settings_page.php:1020
+#: inc/renee_wip_settings_page.php:1293
+msgid "Dashed"
+msgstr "Kreskowane"
+
+#: inc/renee_wip_settings_page.php:160 inc/renee_wip_settings_page.php:437
+#: inc/renee_wip_settings_page.php:724 inc/renee_wip_settings_page.php:1021
+#: inc/renee_wip_settings_page.php:1294
+msgid "Solid"
+msgstr "Ciągłe"
+
+#: inc/renee_wip_settings_page.php:161 inc/renee_wip_settings_page.php:438
+#: inc/renee_wip_settings_page.php:725 inc/renee_wip_settings_page.php:1022
+#: inc/renee_wip_settings_page.php:1295
+msgid "Double"
+msgstr "Podwójne"
+
+#: inc/renee_wip_settings_page.php:162 inc/renee_wip_settings_page.php:439
+#: inc/renee_wip_settings_page.php:726 inc/renee_wip_settings_page.php:1023
+#: inc/renee_wip_settings_page.php:1296
+msgid "Groove"
+msgstr "Rowek"
+
+#: inc/renee_wip_settings_page.php:163 inc/renee_wip_settings_page.php:440
+#: inc/renee_wip_settings_page.php:727 inc/renee_wip_settings_page.php:1024
+#: inc/renee_wip_settings_page.php:1297
+msgid "Ridge"
+msgstr "Krawędź"
+
+#: inc/renee_wip_settings_page.php:164 inc/renee_wip_settings_page.php:441
+#: inc/renee_wip_settings_page.php:728 inc/renee_wip_settings_page.php:1025
+#: inc/renee_wip_settings_page.php:1298
+msgid "Inset"
+msgstr "Wklęsłe"
+
+#: inc/renee_wip_settings_page.php:165 inc/renee_wip_settings_page.php:442
+#: inc/renee_wip_settings_page.php:729 inc/renee_wip_settings_page.php:1026
+#: inc/renee_wip_settings_page.php:1299
+msgid "Outset"
+msgstr "Wypukłe"
+
+#: inc/renee_wip_settings_page.php:166
+msgid "None"
+msgstr "Brak"
+
+#: inc/renee_wip_settings_page.php:172 inc/renee_wip_settings_page.php:449
+#: inc/renee_wip_settings_page.php:736 inc/renee_wip_settings_page.php:1033
+#: inc/renee_wip_settings_page.php:1306
+msgid "Button border radius: "
+msgstr "Zaokrąglenie obramowania przycisku: "
+
+#: inc/renee_wip_settings_page.php:178 inc/renee_wip_settings_page.php:455
+#: inc/renee_wip_settings_page.php:742 inc/renee_wip_settings_page.php:1039
+#: inc/renee_wip_settings_page.php:1312
+msgid "Top left: "
+msgstr "Górny lewy: "
+
+#: inc/renee_wip_settings_page.php:186 inc/renee_wip_settings_page.php:463
+#: inc/renee_wip_settings_page.php:750 inc/renee_wip_settings_page.php:1047
+#: inc/renee_wip_settings_page.php:1320
+msgid "Top right: "
+msgstr "Górny prawy: "
+
+#: inc/renee_wip_settings_page.php:194 inc/renee_wip_settings_page.php:471
+#: inc/renee_wip_settings_page.php:758 inc/renee_wip_settings_page.php:1055
+#: inc/renee_wip_settings_page.php:1328
+msgid "Bottom left: "
+msgstr "Dolny lewy: "
+
+#: inc/renee_wip_settings_page.php:202 inc/renee_wip_settings_page.php:479
+#: inc/renee_wip_settings_page.php:766 inc/renee_wip_settings_page.php:1063
+#: inc/renee_wip_settings_page.php:1336
+msgid "Bottom right: "
+msgstr "Dolny prawy: "
+
+#: inc/renee_wip_settings_page.php:213 inc/renee_wip_settings_page.php:490
+#: inc/renee_wip_settings_page.php:777 inc/renee_wip_settings_page.php:1074
+#: inc/renee_wip_settings_page.php:1347
+msgid "Button text color: "
+msgstr "Kolor tekstu przycisku: "
+
+#: inc/renee_wip_settings_page.php:222 inc/renee_wip_settings_page.php:499
+#: inc/renee_wip_settings_page.php:786 inc/renee_wip_settings_page.php:1083
+#: inc/renee_wip_settings_page.php:1356
+msgid "Button text size: "
+msgstr "Rozmiar tekstu przycisku: "
+
+#: inc/renee_wip_settings_page.php:231 inc/renee_wip_settings_page.php:508
+#: inc/renee_wip_settings_page.php:795 inc/renee_wip_settings_page.php:1092
+#: inc/renee_wip_settings_page.php:1365
+msgid "Button text shadow: "
+msgstr "Cień tekstu przycisku: "
+
+#: inc/renee_wip_settings_page.php:237 inc/renee_wip_settings_page.php:305
+#: inc/renee_wip_settings_page.php:514 inc/renee_wip_settings_page.php:582
+#: inc/renee_wip_settings_page.php:801 inc/renee_wip_settings_page.php:869
+#: inc/renee_wip_settings_page.php:1098 inc/renee_wip_settings_page.php:1166
+#: inc/renee_wip_settings_page.php:1371 inc/renee_wip_settings_page.php:1439
+msgid "Horizontal offset: "
+msgstr "Przesunięcie poziome: "
+
+#: inc/renee_wip_settings_page.php:245
+msgid "Verical offset: "
+msgstr "Przesunięcie pionowe: "
+
+#: inc/renee_wip_settings_page.php:253 inc/renee_wip_settings_page.php:321
+#: inc/renee_wip_settings_page.php:530 inc/renee_wip_settings_page.php:598
+#: inc/renee_wip_settings_page.php:817 inc/renee_wip_settings_page.php:885
+#: inc/renee_wip_settings_page.php:1114 inc/renee_wip_settings_page.php:1182
+#: inc/renee_wip_settings_page.php:1387 inc/renee_wip_settings_page.php:1455
+msgid "Blur: "
+msgstr "Rozmycie: "
+
+#: inc/renee_wip_settings_page.php:261 inc/renee_wip_settings_page.php:329
+#: inc/renee_wip_settings_page.php:538 inc/renee_wip_settings_page.php:606
+#: inc/renee_wip_settings_page.php:825 inc/renee_wip_settings_page.php:893
+#: inc/renee_wip_settings_page.php:1122 inc/renee_wip_settings_page.php:1190
+#: inc/renee_wip_settings_page.php:1395 inc/renee_wip_settings_page.php:1463
+msgid "Shadow color: "
+msgstr "Kolor cienia: "
+
+#: inc/renee_wip_settings_page.php:273 inc/renee_wip_settings_page.php:550
+#: inc/renee_wip_settings_page.php:837 inc/renee_wip_settings_page.php:1134
+#: inc/renee_wip_settings_page.php:1407
+msgid "Text color: "
+msgstr "Kolor tekstu: "
+
+#: inc/renee_wip_settings_page.php:282 inc/renee_wip_settings_page.php:559
+#: inc/renee_wip_settings_page.php:846 inc/renee_wip_settings_page.php:1143
+#: inc/renee_wip_settings_page.php:1416
+msgid "Text size: "
+msgstr "Rozmiar tekstu: "
+
+#: inc/renee_wip_settings_page.php:290 inc/renee_wip_settings_page.php:567
+#: inc/renee_wip_settings_page.php:854 inc/renee_wip_settings_page.php:1151
+#: inc/renee_wip_settings_page.php:1424
+msgid "Text vertical position: "
+msgstr "Pozycja tekstu w pionie: "
+
+#: inc/renee_wip_settings_page.php:299 inc/renee_wip_settings_page.php:576
+#: inc/renee_wip_settings_page.php:863 inc/renee_wip_settings_page.php:1160
+#: inc/renee_wip_settings_page.php:1433
+msgid "Text shadow: "
+msgstr "Cień tekstu: "
+
+#: inc/renee_wip_settings_page.php:313 inc/renee_wip_settings_page.php:522
+#: inc/renee_wip_settings_page.php:590 inc/renee_wip_settings_page.php:809
+#: inc/renee_wip_settings_page.php:877 inc/renee_wip_settings_page.php:1106
+#: inc/renee_wip_settings_page.php:1174 inc/renee_wip_settings_page.php:1379
+#: inc/renee_wip_settings_page.php:1447
+msgid "Vertical offset: "
+msgstr "Przesunięcie pionowe: "
+
+#: inc/renee_wip_settings_page.php:357 inc/renee_wip_settings_page.php:635
+#: inc/renee_wip_settings_page.php:950 inc/renee_wip_settings_page.php:1223
+#: inc/renee_wip_settings_page.php:1492
+msgid "Example file"
+msgstr "Przykładowy plik"
+
+#: inc/renee_wip_settings_page.php:370 inc/renee_wip_settings_page.php:648
+#: inc/renee_wip_settings_page.php:963 inc/renee_wip_settings_page.php:1236
+msgid "Animation duration: "
+msgstr "Czas trwania animacji: "
+
+#: inc/renee_wip_settings_page.php:378
+msgid "Battery fill color: "
+msgstr "Kolor wypełnienia baterii: "
+
+#: inc/renee_wip_settings_page.php:387
+msgid "Battery edge color: "
+msgstr "Kolor krawędzi baterii: "
+
+#: inc/renee_wip_settings_page.php:396 inc/renee_wip_settings_page.php:674
+#: inc/renee_wip_settings_page.php:1253
+msgid "Meter color: "
+msgstr "Kolor miernika: "
+
+#: inc/renee_wip_settings_page.php:443 inc/renee_wip_settings_page.php:730
+#: inc/renee_wip_settings_page.php:1027 inc/renee_wip_settings_page.php:1300
+msgid "Brak"
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:656
+msgid "Meter background color: "
+msgstr "Kolor tła miernika: "
+
+#: inc/renee_wip_settings_page.php:665 inc/renee_wip_settings_page.php:971
+msgid "Meter grid color: "
+msgstr "Kolor siatki miernika: "
+
+#: inc/renee_wip_settings_page.php:683 inc/renee_wip_settings_page.php:980
+msgid "Hand color: "
+msgstr "Kolor wskazówki: "
+
+#: inc/renee_wip_settings_page.php:1501
+msgid "Help"
+msgstr "Pomoc"
+
+#: inc/renee_wip_settings_page.php:1504
+msgid "https://www.youtube.com/embed/dfBZmqMs56I"
+msgstr "https://www.youtube.com/embed/nREjlnK9rIc"
+
+#: renee-work-in-progress.php:306 renee-work-in-progress.php:307
+msgid "3D WIP Settings"
+msgstr "3D WIP Ustawienia"
+
+#: renee-work-in-progress.php:316
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: solid/viewer.php:59
+msgid "3D Model"
+msgstr "Model 3D"
+
+#: solid/viewer.php:269
+msgid "Message text..."
+msgstr "Treść wiadomości..."
+
+#: solid/viewer.php:274
+msgid "Send"
+msgstr "Wyślij"
+
+#. Plugin Name of the plugin/theme
+msgid "3D Work In Progress"
+msgstr "3D Praca W Toku"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://reneecussack.com"
+msgstr "https://reneecussack.com"
+
+#. Description of the plugin/theme
+msgid ""
+"A Gutenberg editor block to display work progress of a SolidWorks project "
+"with customizable and animated meters, 3D model viewer based on e-drawings "
+"html file, and per project chat to discuss the work online with your clients."
+msgstr ""
+"Blok edytora Gutenberg służący do wyświetlania postępu prac nad projektem "
+"SolidWorks z konfigurowalnymi animowanymi miernikami, podglądem modelu 3D na "
+"bazie pliku html z programu e-drawings, oraz przypisanym do każdego projektu "
+"czatem umożliwiającym dyskusję online z Twoimi klientami."
+
+#. Author of the plugin/theme
+msgid "Renee Cussack"
+msgstr "Renee Cussack"
+
+#~ msgid ""
+#~ "Like this plugin and want me to continue with support?<br>Donate and "
+#~ "refresh your page never to see my logo again! :)"
+#~ msgstr ""
+#~ "Podoba Ci się ten plugin i chcesz, abym kontynuował wsparcie?<br>Przekaż "
+#~ "darowiznę i odśwież swoją stronę, aby nigdy więcej nie zobaczyć mojego "
+#~ "logo! :)"
+
+#~ msgid "Enter host name... "
+#~ msgstr "Wprowadź nazwę hosta... "
+
+#~ msgid "A SolidWorks work in progress plugin"
+#~ msgstr "Wtyczka pracy w toku dla projektów SolidWorks"
+
+#~ msgid "A SolidWorks project work in progress block for Gutenberg editor"
+#~ msgstr ""
+#~ "Wtyczka bloku edytora Gutenberg -  praca w toku dla projektów SolidWorks"

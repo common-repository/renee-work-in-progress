@@ -1,0 +1,378 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: A SolidWorks work in progress plugin\n"
+"POT-Creation-Date: 2020-07-25 20:41+0200\n"
+"PO-Revision-Date: 2020-07-25 20:39+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: renee-work-in-progress.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: assets/renee_wip.js:32
+msgid "Work In Progress"
+msgstr ""
+
+#: assets/renee_wip.js:339
+msgid "Delete"
+msgstr ""
+
+#: assets/renee_wip.js:347
+msgid "Select all"
+msgstr ""
+
+#: assets/renee_wip.js:353
+msgid "File name"
+msgstr ""
+
+#: assets/renee_wip.js:539
+msgid "Delete selected"
+msgstr ""
+
+#: assets/renee_wip.js:549
+msgid "Close"
+msgstr ""
+
+#: assets/renee_wip.js:602
+msgid "Select meter type: "
+msgstr ""
+
+#: assets/renee_wip.js:605 inc/renee_wip_settings_page.php:57
+msgid "Circle"
+msgstr ""
+
+#: assets/renee_wip.js:605 inc/renee_wip_settings_page.php:61
+msgid "Battery"
+msgstr ""
+
+#: assets/renee_wip.js:605 inc/renee_wip_settings_page.php:65
+msgid "Speed-o-meter 1"
+msgstr ""
+
+#: assets/renee_wip.js:605 inc/renee_wip_settings_page.php:69
+msgid "Speed-o-meter 2"
+msgstr ""
+
+#: assets/renee_wip.js:605 inc/renee_wip_settings_page.php:73
+msgid "Croissant"
+msgstr ""
+
+#: assets/renee_wip.js:1129
+msgid "Select file(s) to upload: "
+msgstr ""
+
+#: assets/renee_wip.js:1148
+msgid "Upload"
+msgstr ""
+
+#: assets/renee_wip.js:1170
+msgid "Refresh list"
+msgstr ""
+
+#: assets/renee_wip.js:1179
+msgid "Delete files"
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:39
+msgid "Save "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:44
+msgid "General settings"
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:47
+msgid " How many columns should be displayed?"
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:50
+msgid "Appearance settings"
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:54 inc/renee_wip_settings_page.php:58
+#: inc/renee_wip_settings_page.php:62 inc/renee_wip_settings_page.php:66
+#: inc/renee_wip_settings_page.php:70
+msgid "default "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:83
+msgid "Animation duration "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:86 inc/renee_wip_settings_page.php:348
+msgid " seconds"
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:91 inc/renee_wip_settings_page.php:1198
+msgid "Background circle color: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:99
+msgid "Meter circle color: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:107 inc/renee_wip_settings_page.php:377
+#: inc/renee_wip_settings_page.php:656 inc/renee_wip_settings_page.php:947
+#: inc/renee_wip_settings_page.php:1214
+msgid "Button color: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:115 inc/renee_wip_settings_page.php:385
+#: inc/renee_wip_settings_page.php:664 inc/renee_wip_settings_page.php:955
+#: inc/renee_wip_settings_page.php:1222
+msgid "Button border color: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:123 inc/renee_wip_settings_page.php:393
+#: inc/renee_wip_settings_page.php:672 inc/renee_wip_settings_page.php:963
+#: inc/renee_wip_settings_page.php:1230
+msgid "Button border width: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:131 inc/renee_wip_settings_page.php:401
+#: inc/renee_wip_settings_page.php:680 inc/renee_wip_settings_page.php:971
+#: inc/renee_wip_settings_page.php:1238
+msgid "Button border style: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:135 inc/renee_wip_settings_page.php:405
+#: inc/renee_wip_settings_page.php:684 inc/renee_wip_settings_page.php:975
+#: inc/renee_wip_settings_page.php:1242
+msgid "Dotted"
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:136 inc/renee_wip_settings_page.php:406
+#: inc/renee_wip_settings_page.php:685 inc/renee_wip_settings_page.php:976
+#: inc/renee_wip_settings_page.php:1243
+msgid "Dashed"
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:137 inc/renee_wip_settings_page.php:407
+#: inc/renee_wip_settings_page.php:686 inc/renee_wip_settings_page.php:977
+#: inc/renee_wip_settings_page.php:1244
+msgid "Solid"
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:138 inc/renee_wip_settings_page.php:408
+#: inc/renee_wip_settings_page.php:687 inc/renee_wip_settings_page.php:978
+#: inc/renee_wip_settings_page.php:1245
+msgid "Double"
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:139 inc/renee_wip_settings_page.php:409
+#: inc/renee_wip_settings_page.php:688 inc/renee_wip_settings_page.php:979
+#: inc/renee_wip_settings_page.php:1246
+msgid "Groove"
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:140 inc/renee_wip_settings_page.php:410
+#: inc/renee_wip_settings_page.php:689 inc/renee_wip_settings_page.php:980
+#: inc/renee_wip_settings_page.php:1247
+msgid "Ridge"
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:141 inc/renee_wip_settings_page.php:411
+#: inc/renee_wip_settings_page.php:690 inc/renee_wip_settings_page.php:981
+#: inc/renee_wip_settings_page.php:1248
+msgid "Inset"
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:142 inc/renee_wip_settings_page.php:412
+#: inc/renee_wip_settings_page.php:691 inc/renee_wip_settings_page.php:982
+#: inc/renee_wip_settings_page.php:1249
+msgid "Outset"
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:143
+msgid "None"
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:149 inc/renee_wip_settings_page.php:419
+#: inc/renee_wip_settings_page.php:698 inc/renee_wip_settings_page.php:989
+#: inc/renee_wip_settings_page.php:1256
+msgid "Button border radius: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:155 inc/renee_wip_settings_page.php:425
+#: inc/renee_wip_settings_page.php:704 inc/renee_wip_settings_page.php:995
+#: inc/renee_wip_settings_page.php:1262
+msgid "Top left: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:163 inc/renee_wip_settings_page.php:433
+#: inc/renee_wip_settings_page.php:712 inc/renee_wip_settings_page.php:1003
+#: inc/renee_wip_settings_page.php:1270
+msgid "Top right: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:171 inc/renee_wip_settings_page.php:441
+#: inc/renee_wip_settings_page.php:720 inc/renee_wip_settings_page.php:1011
+#: inc/renee_wip_settings_page.php:1278
+msgid "Bottom left: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:179 inc/renee_wip_settings_page.php:449
+#: inc/renee_wip_settings_page.php:728 inc/renee_wip_settings_page.php:1019
+#: inc/renee_wip_settings_page.php:1286
+msgid "Bottom right: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:190 inc/renee_wip_settings_page.php:460
+#: inc/renee_wip_settings_page.php:739 inc/renee_wip_settings_page.php:1030
+#: inc/renee_wip_settings_page.php:1297
+msgid "Button text color: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:198 inc/renee_wip_settings_page.php:468
+#: inc/renee_wip_settings_page.php:747 inc/renee_wip_settings_page.php:1038
+#: inc/renee_wip_settings_page.php:1305
+msgid "Button text size: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:207 inc/renee_wip_settings_page.php:477
+#: inc/renee_wip_settings_page.php:756 inc/renee_wip_settings_page.php:1047
+#: inc/renee_wip_settings_page.php:1314
+msgid "Button text shadow: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:213 inc/renee_wip_settings_page.php:279
+#: inc/renee_wip_settings_page.php:483 inc/renee_wip_settings_page.php:549
+#: inc/renee_wip_settings_page.php:762 inc/renee_wip_settings_page.php:828
+#: inc/renee_wip_settings_page.php:1053 inc/renee_wip_settings_page.php:1119
+#: inc/renee_wip_settings_page.php:1320 inc/renee_wip_settings_page.php:1386
+msgid "Horizontal offset: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:221
+msgid "Verical offset: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:229 inc/renee_wip_settings_page.php:295
+#: inc/renee_wip_settings_page.php:499 inc/renee_wip_settings_page.php:565
+#: inc/renee_wip_settings_page.php:778 inc/renee_wip_settings_page.php:844
+#: inc/renee_wip_settings_page.php:1069 inc/renee_wip_settings_page.php:1135
+#: inc/renee_wip_settings_page.php:1336 inc/renee_wip_settings_page.php:1402
+msgid "Blur: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:237 inc/renee_wip_settings_page.php:303
+#: inc/renee_wip_settings_page.php:507 inc/renee_wip_settings_page.php:573
+#: inc/renee_wip_settings_page.php:786 inc/renee_wip_settings_page.php:852
+#: inc/renee_wip_settings_page.php:1077 inc/renee_wip_settings_page.php:1143
+#: inc/renee_wip_settings_page.php:1344 inc/renee_wip_settings_page.php:1410
+msgid "Shadow color: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:248 inc/renee_wip_settings_page.php:518
+#: inc/renee_wip_settings_page.php:797 inc/renee_wip_settings_page.php:1088
+#: inc/renee_wip_settings_page.php:1355
+msgid "Text color: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:256 inc/renee_wip_settings_page.php:526
+#: inc/renee_wip_settings_page.php:805 inc/renee_wip_settings_page.php:1096
+#: inc/renee_wip_settings_page.php:1363
+msgid "Text size: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:264 inc/renee_wip_settings_page.php:534
+#: inc/renee_wip_settings_page.php:813 inc/renee_wip_settings_page.php:1104
+#: inc/renee_wip_settings_page.php:1371
+msgid "Text vertical position: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:273 inc/renee_wip_settings_page.php:543
+#: inc/renee_wip_settings_page.php:822 inc/renee_wip_settings_page.php:1113
+#: inc/renee_wip_settings_page.php:1380
+msgid "Text shadow: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:287 inc/renee_wip_settings_page.php:491
+#: inc/renee_wip_settings_page.php:557 inc/renee_wip_settings_page.php:770
+#: inc/renee_wip_settings_page.php:836 inc/renee_wip_settings_page.php:1061
+#: inc/renee_wip_settings_page.php:1127 inc/renee_wip_settings_page.php:1328
+#: inc/renee_wip_settings_page.php:1394
+msgid "Vertical offset: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:331 inc/renee_wip_settings_page.php:602
+#: inc/renee_wip_settings_page.php:909 inc/renee_wip_settings_page.php:1176
+#: inc/renee_wip_settings_page.php:1439
+msgid "Example file"
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:345 inc/renee_wip_settings_page.php:616
+#: inc/renee_wip_settings_page.php:923 inc/renee_wip_settings_page.php:1190
+msgid "Animation duration: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:353
+msgid "Battery fill color: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:361
+msgid "Battery edge color: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:369 inc/renee_wip_settings_page.php:640
+#: inc/renee_wip_settings_page.php:1206
+msgid "Meter color: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:413 inc/renee_wip_settings_page.php:692
+#: inc/renee_wip_settings_page.php:983 inc/renee_wip_settings_page.php:1250
+msgid "Brak"
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:624
+msgid "Meter background color: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:632 inc/renee_wip_settings_page.php:931
+msgid "Meter grid color: "
+msgstr ""
+
+#: inc/renee_wip_settings_page.php:648 inc/renee_wip_settings_page.php:939
+msgid "Hand color: "
+msgstr ""
+
+#: solid/viewer.php:59
+msgid "3D Model"
+msgstr ""
+
+#: solid/viewer.php:269
+msgid "Message text..."
+msgstr ""
+
+#: solid/viewer.php:274
+msgid "Send"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "A SolidWorks work in progress plugin"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://reneecussack.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A SolidWorks project work in progress block for Gutenberg editor"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Renee Cussack"
+msgstr ""
